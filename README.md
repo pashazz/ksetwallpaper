@@ -1,7 +1,24 @@
 # KDE set wallpaper script
 ## Usage
+```sh
+-h, --help
+                    show this help message and exit
+file FILE
+                    Wallpaper file name
+--plugin PLUGIN, -p PLUGIN
+                    Wallpaper plugin (default is org.kde.image)
+--dir DIR, -d DIR
+                    Absolute path of folder containging your wallpapers for slideshow
+--timer TIMER, -t TIMER
+                    Time in seconds between wallpapers
+```
+ - Set one wallpaper on all monitors
 
 `python3 ksetwallpaper.py filename`
+
+ - Start random slideshow from images folder with updating time of 30 minutes
+
+`python3 ksetwallpaper.py -d ' /folder/with/Wallpapers' -p org.kde.image -t 1800`
 
 ## Bugs
 Plasma does not update the image of the same file name when it is replaced
