@@ -43,7 +43,7 @@ def wallpaper_slideshow(wallapapers, plugin, timer):
         print(
             f"Looping through {wallpaper_count} wallpapers every  {timer_show}")
         while True:
-            random_int = random.randint(0, wallpaper_count)
+            random_int = random.randint(0, wallpaper_count-1)
             setwallpaper(wallapapers[random_int], plugin)
             time.sleep(timer)
     else:
