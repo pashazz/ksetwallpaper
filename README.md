@@ -3,7 +3,7 @@
 ```sh
 -h, --help
                     show this help message and exit
-file FILE
+--file, -f FILE
                     Wallpaper file name
 --plugin PLUGIN, -p PLUGIN
                     Wallpaper plugin (default is org.kde.image)
@@ -14,7 +14,7 @@ file FILE
 ```
  - Set one wallpaper on all monitors
 
-`python3 ksetwallpaper.py filename`
+`python3 ksetwallpaper.py --file filename`
 
  - Start random slideshow from images folder with updating time of 30 minutes
 

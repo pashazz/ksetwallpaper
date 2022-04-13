@@ -52,7 +52,7 @@ def wallpaper_slideshow(wallapapers, plugin, timer):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='KDE Wallpaper setter')
-    parser.add_argument('--file', help='Wallpaper file name', default=None)
+    parser.add_argument('--file','-f', help='Wallpaper file name', default=None)
     parser.add_argument(
         '--plugin', '-p', help='Wallpaper plugin (default is org.kde.image)', default='org.kde.image')
     parser.add_argument('--dir', '-d', type=str,
