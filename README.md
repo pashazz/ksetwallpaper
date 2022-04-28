@@ -21,6 +21,21 @@
 
 `python3 ksetwallpaper.py -d ' /folder/with/Wallpapers' -p org.kde.image -t 1800`
 
+## Note on lock screen wallpaper
+This script cannot (at least for now) change lock screen wallpaper plugin
+
+It reads and updates the `Image` property of the specified plugin that should be manually enabled in:
+
+System settings > Workspace Behaivor > Screen Locking > Appearance > Configure
+
+A list of wallpapers plugins known to have the Image property are:
+
+| Name        | ID          |
+| ----------- | ----------- |
+| Image (default)      | `org.kde.image`  |
+| Slideshow | `org.kde.slideshow` |
+| Inactive Blur | `com.github.zren.inactiveblur` (Not slideshow mode) |
+
 ## Bugs
 Plasma does not update the image of the same file name when it is replaced
 
