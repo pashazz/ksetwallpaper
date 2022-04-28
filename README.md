@@ -4,13 +4,14 @@
 -h, --help
                     show this help message and exit
 --file, -f FILE
-                    Wallpaper file name
+                    Wallpaper absolute path
 --plugin PLUGIN, -p PLUGIN
                     Wallpaper plugin (default is org.kde.image)
 --dir DIR, -d DIR
                     Absolute path of folder containging your wallpapers for slideshow
 --timer TIMER, -t TIMER
                     Time in seconds between wallpapers
+--lock-screen, -l   Set lock screen wallpaper
 ```
  - Set one wallpaper on all monitors
 
