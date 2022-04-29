@@ -33,8 +33,7 @@ A list of wallpapers plugins known to have the Image property are:
 | Name        | ID          |
 | ----------- | ----------- |
 | Image (default)      | `org.kde.image`  |
-| Slideshow | `org.kde.slideshow` |
-| Inactive Blur | `com.github.zren.inactiveblur` (Not slideshow mode) |
+| Inactive Blur | `com.github.zren.inactiveblur` Static mode |
 
 ## Bugs
 Plasma does not update the image of the same file name when it is replaced
